@@ -1,5 +1,3 @@
-import langchain
-import deepseek
+from langchain_community.vectorstores import FAISS
 
-print(langchain.__version__)
-print(deepseek.__version__)
+print('hello')
